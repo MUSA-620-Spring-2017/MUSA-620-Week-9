@@ -1,0 +1,101 @@
+name,age,debt,pop,regionname,region,gdp
+United States,37.6,1.015301078,327985,America,0,16768.1
+China,36.7,0.22400059,1360724,East Asia & Pacific,1,9490.6
+Japan,46.1,2.300002033,126238,East Asia & Pacific,1,4919.6
+Germany,46.1,0.747001582,81583,Europe & Central Asia,2,3730.3
+France,40.9,0.95,63550,Europe & Central Asia,2,2810.2
+United Kingdom,40.4,0.893999701,63046,Europe & Central Asia,2,2678.2
+Brazil,30.7,0.589101626,200777,America,0,2392.1
+Italy,44.5,1.321002387,60543,Europe & Central Asia,2,2136.9
+Russia,38.9,0.179201539,138693,Europe & Central Asia,2,2079
+India,27,0.677199484,1270819,South Asia,4,1861.8
+Canada,41.7,0.865100598,35010,America,0,1839
+Australia,38.3,0.286003589,22280,East Asia & Pacific,1,1560.4
+Spain,41.6,0.976999282,46681,Europe & Central Asia,2,1393
+Korea,40.2,0.337997855,48990,East Asia & Pacific,1,1305.6
+Mexico,27.3,0.307003644,114128,America,0,1262.2
+Indonesia,29.2,0.250203185,240868,East Asia & Pacific,1,910.5
+Netherlands,42.1,0.688002343,16841,Europe & Central Asia,2,853.5
+Turkey,29.6,0.330004859,78720,Europe & Central Asia,2,823.2
+Saudi Arabia,26.4,0.016001612,28123,Middle East & North Africa,3,744.3
+Switzerland,42,0.342004669,7693,Europe & Central Asia,2,685.4
+Argentina,31.2,0.456003858,41993,America,0,622.1
+Sweden,41.2,0.438999137,9437,Europe & Central Asia,2,579.5
+Poland,39.5,0.501007413,37867,Europe & Central Asia,2,526.1
+Belgium,43.1,1.064996189,10829,Europe & Central Asia,2,524.8
+Nigeria,18.2,0.105009709,170642,Sub-Saharan Africa,5,515
+Iran,28.3,0.106298096,78136,Middle East & North Africa,3,493.8
+Taiwan,39.2,0.409810127,23041,East Asia & Pacific,1,474
+Austria,44.3,0.844991828,8446,Europe & Central Asia,2,428.3
+Thailand,36.2,0.45701007,69426,East Asia & Pacific,1,387.3
+Colombia,28.9,0.380005262,48478,America,0,380.1
+Venezuela,26.9,0.498007002,30628,America,0,371.3
+South Africa,25.7,0.390002731,51392,Sub-Saharan Africa,5,366.1
+Malaysia,27.7,0.528001277,29417,East Asia & Pacific,1,313.2
+Israel,29.9,0.675017206,7668,Middle East & North Africa,3,290.6
+Chile,33.3,0.150993856,17695,America,0,276.7
+Philippines,23.5,0.453987505,99309,East Asia & Pacific,1,272.1
+Egypt,25.1,0.905,89617,Middle East & North Africa,3,272
+Greece,43.5,1.77101569,11243,Europe & Central Asia,2,242.2
+Iraq,21.5,0.370193548,34513,Middle East & North Africa,3,232.5
+Pakistan,22.6,0.643004735,199206,South Asia,4,232.3
+Kazakhstan,29.7,0.135316947,16137,Europe & Central Asia,2,231.9
+Portugal,41.1,1.302000889,10781,Europe & Central Asia,2,224.9
+Algeria,27.3,0.087583254,37291,Middle East & North Africa,3,210.2
+Czech Rep.,40.9,0.425718391,10489,Europe & Central Asia,2,208.8
+Peru,27,0.20701581,30685,America,0,202.4
+Romania,39.8,0.395991561,20907,Europe & Central Asia,2,189.6
+Ukraine,40.6,0.712111293,44533,Europe & Central Asia,2,183.3
+Vietnam,29.2,0.505023364,92288,East Asia & Pacific,1,171.2
+Bangladesh,24.3,0.18,172019,South Asia,4,150
+Hungary,41.1,0.768965517,9904,Europe & Central Asia,2,133.4
+Angola,17.9,0.309983897,20860,Sub-Saharan Africa,5,124.2
+Morocco,28.1,0.638883542,33748,Middle East & North Africa,3,103.9
+Ecuador,26.7,0.297989418,14347,America,0,94.5
+Cuba,39.9,0.201945525,11212,America,0,77.1
+Azerbaijan,30.1,0.1375,9283,Europe & Central Asia,2,73.6
+Belarus,39.4,0.367168263,9426,Europe & Central Asia,2,73.1
+Sri Lanka,31.8,0.755059524,20958,South Asia,4,67.2
+Sudan,19.1,0.707067669,46365,Middle East & North Africa,3,66.5
+Libya,27.5,0.061068702,6979,Middle East & North Africa,3,65.5
+Dominican Rep.,27.1,0.457843137,10680,America,0,61.2
+Burma,27.9,0.397274276,52303,East Asia & Pacific,1,58.7
+Uzbekistan,27.1,0.086971831,28942,Europe & Central Asia,2,56.8
+Kenya,19.1,0.497996357,44740,Sub-Saharan Africa,5,54.9
+Bulgaria,42.6,0.288073394,7334,Europe & Central Asia,2,54.5
+Guatemala,21,0.243042672,15663,America,0,53.9
+Ghana,20.8,0.675925926,26137,Sub-Saharan Africa,5,48.6
+Ethiopia,17.6,0.286105263,92791,Sub-Saharan Africa,5,47.5
+Tunisia,31.4,0.475106383,10732,Middle East & North Africa,3,47
+Serbia,41.9,0.709010989,9840,Europe & Central Asia,2,45.5
+Tanzania,17.4,0.399097065,49922,Sub-Saharan Africa,5,44.3
+Yemen,18.6,0.499444444,26719,Middle East & North Africa,3,36
+Cote d'Ivoire,20.3,0.429073482,23400,Sub-Saharan Africa,5,31.3
+Bolivia,23.4,0.323856209,10610,America,0,30.6
+"Congo, Rep. of the",19.8,0.197,74464,Sub-Saharan Africa,5,30
+Cameroon,18.3,0.198986486,21505,Sub-Saharan Africa,5,29.6
+Paraguay,26.8,0.151557093,6844,America,0,28.9
+Zambia,16.7,0.310074627,14440,Sub-Saharan Africa,5,26.8
+Uganda,15.5,0.346963563,37859,Sub-Saharan Africa,5,24.7
+Afghanistan,18.1,0.066009852,32674,South Asia,4,20.3
+Nepal,22.9,0.288020833,31698,South Asia,4,19.2
+Honduras,21.9,0.426486486,8154,America,0,18.5
+Mozambique,16.9,0.554193548,25191,Sub-Saharan Africa,5,15.5
+Papua New Guinea,22.4,0.307792208,7440,East Asia & Pacific,1,15.4
+Cambodia,24.1,0.280921053,15957,East Asia & Pacific,1,15.2
+Senegal,18.4,0.295945946,14023,Sub-Saharan Africa,5,14.8
+Zimbabwe,20.2,0.77037037,13546,Sub-Saharan Africa,5,13.5
+Chad,17.2,0.237984496,12620,Sub-Saharan Africa,5,12.9
+Burkina Faso,17,0.282644628,18181,Sub-Saharan Africa,5,12.1
+Laos,22,0.620535714,6847,East Asia & Pacific,1,11.2
+Mali,16,0.31981982,14478,Sub-Saharan Africa,5,11.1
+Madagascar,19.2,0.349056604,22026,Sub-Saharan Africa,5,10.6
+Tajikistan,23.5,0.409411765,7549,Europe & Central Asia,2,8.5
+Haiti,22.2,0.267058824,10727,America,0,8.5
+Benin,17.7,0.18313253,10207,Sub-Saharan Africa,5,8.3
+Niger,15.1,0.248051948,18124,Sub-Saharan Africa,5,7.7
+Rwanda,18.7,0.28,11295,Sub-Saharan Africa,5,7.5
+Guinea,18.7,0.208064516,11364,Sub-Saharan Africa,5,6.2
+Togo,19.6,0.165116279,7356,Sub-Saharan Africa,5,4.3
+Malawi,16.3,0.179487179,17280,Sub-Saharan Africa,5,3.9
+Burundi,17,0.140740741,9155,Sub-Saharan Africa,5,2.7
