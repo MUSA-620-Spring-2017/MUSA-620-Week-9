@@ -6,19 +6,15 @@ Japan Population Pyramid, 1990-2050
 
 ## Links
 
-http://api.census.gov/data/key_signup.html
+[US Census API key](http://api.census.gov/data/key_signup.html)
 
-The example we replicated in class, worth a read: [Text analysis of Trump's tweets confirms he writes only the (angrier) Android half](http://varianceexplained.org/r/trump-tweets/)
+[ggplot2 cheat sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
 
-[NRC Word-Association Lexicon](http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) -- the sentiment classifier we used in class (via the syuzhet R package)
-
-[Stanford's Core NLP library](http://stanfordnlp.github.io/CoreNLP/) -- the standard programming library for natural language processing
-
-[D3 examples](https://github.com/MUSA-620-Fall-2017/d3)
+[Color Brewer](http://colorbrewer2.org/)
 
 ## Assignment
 
-Create an animated choropleth that displays the density of crimes across Philadelphia's Census tracts, year-by-year from 2009 to 2016.
+Create an animated choropleth map that displays the density of crimes across Philadelphia's Census tracts, year-by-year from 2009 to 2016.
 
 This assignment is **required**. You may turn it in by email (galkamaxd at gmail) or in person at class.
 
@@ -26,14 +22,14 @@ This assignment is **required**. You may turn it in by email (galkamaxd at gmail
 
 ### Deliverable:
 
-You may use either ggplot or D3 to create the map. The final deliverable should include:
+The final deliverable should include:
 - the map itself, either as an animated GIF or HTML file
 - any code used in the construction of the map
 - a written description of the steps you used to create it
 
 ### Task:
 
-This assignment is more open-ended than the previous ones. Given all the tools you have under your belt, you have many options for how you complete each step.
+This assignment is more open-ended than the previous ones. Given all the tools you now have under your belt, you have many options for how you complete each step. Several possibilities are suggested below, but if you can think of a better way, you are welcome to use it.
 
 **Downloads:**
 - [Philadelphia Crime Incidents](https://www.opendataphilly.org/dataset/crime-incidents) (you may ignore any crimes that are missing coordinates)
