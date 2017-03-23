@@ -13,13 +13,13 @@ Japan Population Pyramid, 1990-2050
 
 [Color Brewer](http://colorbrewer2.org/)
 
-Three videos I've mentioned in class, all of which I will be touching on next week. Not required, but highly recommended.
+Below are three videos I've mentioned in class, all of which I will be touching on next week -- watching them is highly recommended, but not required
 
-[The West Wing: Mercator vs Gall-Peters projection](https://www.youtube.com/watch?v=vVX-PrBRtTY) - a great intro to map projections. This week, [Boston became the first city](http://www.npr.org/sections/thetwo-way/2017/03/21/520938221/boston-students-get-a-glimpse-of-a-whole-new-world-with-different-maps) to introduce the Gall-Peters projection in public schools.
+[The West Wing: Mercator vs Gall-Peters projection](https://www.youtube.com/watch?v=vVX-PrBRtTY) - A great intro to map projections. This week, [Boston became the first city](http://www.npr.org/sections/thetwo-way/2017/03/21/520938221/boston-students-get-a-glimpse-of-a-whole-new-world-with-different-maps) to introduce the Gall-Peters projection in public schools.
 
 [Hans Rosling: The best stats you've ever seen](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen) - Outstanding presentation in every respect. See if you can count how many dimensions are visualized in the graphic.
 
-[The Fallen of WWII](http://www.fallen.io/) - "cinematic" data visualization by Neil Halloran, a fellow Philadelphian. Created using only Javascript.
+[The Fallen of WWII](http://www.fallen.io/) - "Cinematic" data visualization by Neil Halloran, a fellow Philadelphian. Created using only Javascript.
 
 
 ## Assignment
@@ -39,7 +39,7 @@ The final deliverable should include:
 
 ### Task:
 
-This assignment is more open-ended than the previous ones. Given all the tools you now have under your belt, you have many options for how you complete each step. Several possibilities are suggested below, but if you have a different method, you are welcome to use it.
+This assignment is more open-ended than the previous ones. Given all the tools you now have under your belt, you have many options for how you complete the assignment. Several possibilities are suggested below, but if you have a different method, you are welcome to use it.
 
 **Downloads:**
 - [Philadelphia Crime Incidents](https://www.opendataphilly.org/dataset/crime-incidents) (you may ignore any crimes that are missing coordinates)
@@ -47,13 +47,15 @@ This assignment is more open-ended than the previous ones. Given all the tools y
 
 
 **1. For each Philly census tract, calculate the number of crimes that occurred there during each year, 2009 to 2016.**
-For this step, you have many options.
+
+For this step, you have several options.
 - You can use QGIS, ArcGis, or PostGIS to join the accident count directly to the Philly-tracts shapefile using a spatial join.
 - Alternatively, you can follow the process we used in [step 2 of the accidents assignment](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-6), using a spatial join to match each crime to a Census tract. In this case, the crime data and the Census tract shapefile can be loaded separately into R, and connected using a left join, as we did in the [ggplot example](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-9/blob/master/ggplot2-map.R) in class.
 - Regardless of the method you choose, you are welcome to use BigQuery to make the crime data more compact and easier to work with, as we did with the NYC taxi data.
 
 **2. Visualize the crime as an animated choropleth**
-You may create this map using either ggplot2 or D3. Design considerations are up to you and will be factored into the grade. The objective is clear presentation of the spatiotemporal crime trends. A nice looking map is a plus, but it is not the goal.
+
+You may use ggplot2 or D3 to create the map. Design considerations are up to you and will be factored into the grade. The objective is clear presentation of the spatiotemporal crime trends. A nice looking map is a plus, but it is not the goal.
 
 Added features (legend, compass, title, labels, dropshadow, etc) are encouraged where appropriate, but remember that more is not necessarily better.
 
