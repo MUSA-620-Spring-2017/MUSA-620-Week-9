@@ -1,6 +1,7 @@
 # Week 9: ggplot2
 
 ![Japan Population Pyramid](https://blueshift.io/japan-population-pyramid.gif "Japan Population Pyramid")
+
 Japan Population Pyramid, 1990-2050
 
 
