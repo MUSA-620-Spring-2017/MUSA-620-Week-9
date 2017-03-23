@@ -13,6 +13,15 @@ Japan Population Pyramid, 1990-2050
 
 [Color Brewer](http://colorbrewer2.org/)
 
+Three videos I've mentioned in class, all of which I will be touching on next week. Not required, but highly recommended.
+
+[The West Wing: Mercator vs Gall-Peters projection](https://www.youtube.com/watch?v=vVX-PrBRtTY) - a great intro to map projections. This week, [Boston became the first city](http://www.npr.org/sections/thetwo-way/2017/03/21/520938221/boston-students-get-a-glimpse-of-a-whole-new-world-with-different-maps) to introduce the Gall-Peters projection in public schools.
+
+[Hans Rosling: The best stats you've ever seen](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen) - Outstanding presentation in every respect. See if you can count how many dimensions are visualized in the graphic.
+
+[The Fallen of WWII](http://www.fallen.io/) - "cinematic" data visualization by Neil Halloran, a fellow Philadelphian. Created using only Javascript.
+
+
 ## Assignment
 
 Create an animated choropleth map that displays the density of crimes across Philadelphia's Census tracts, year-by-year from 2009 to 2016.
