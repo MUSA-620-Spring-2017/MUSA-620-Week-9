@@ -26,11 +26,11 @@ This assignment is **required**. You may turn it in by email (galkamaxd at gmail
 The final deliverable should include:
 - the map itself, either as an animated GIF or HTML file
 - any code used in the construction of the map
-- a written description of the steps you used to create it
+- a written description of the steps you took to create it
 
 ### Task:
 
-This assignment is more open-ended than the previous ones. Given all the tools you now have under your belt, you have many options for how you complete each step. Several possibilities are suggested below, but if you can think of a better way, you are welcome to use it.
+This assignment is more open-ended than the previous ones. Given all the tools you now have under your belt, you have many options for how you complete each step. Several possibilities are suggested below, but if you have a different method, you are welcome to use it.
 
 **Downloads:**
 - [Philadelphia Crime Incidents](https://www.opendataphilly.org/dataset/crime-incidents) (you may ignore any crimes that are missing coordinates)
