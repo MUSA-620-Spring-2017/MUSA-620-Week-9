@@ -3,14 +3,15 @@ library(animation)
 library(dplyr)
 library(ggthemes)
 
+
 ## Themes
 # https://cran.r-project.org/web/packages/ggthemes/vignettes/ggthemes.html
 #   theme_fivethirtyeight(), theme_few(), theme_wsj(), theme_tufte(), 
    
 
 
-
 japanData <- read.csv("d:/japan-age.csv")
+
 
 
 # ***Bar Chart***
@@ -19,25 +20,35 @@ yeardata <- filter(japanData, time == 2010)
 femaleonly = subset(yeardata, SEX == "Female")
 
 ggplot(data=femaleonly, aes(x = AGE, y = POP)) +
-  geom_bar(colour="black", stat="identity", position = "stack", fill="orange") +
+  geom_bar(colour="black", stat="identity", fill="orange") +
+  theme_excel() +
   guides(fill=FALSE)
+
 
 
 # ***Stacked Bar***
 
 yeardata <- filter(japanData, time == 2010)
 
-ggplot(data=yeardata, aes(x = AGE, y = POP, fill = SEX )) +
-  geom_bar(colour="black", stat="identity", position = "stack") +
+ggplot(data=yeardata, aes(x = AGE, y = POP, fill = SEX, colour= SEX )) +
+  geom_bar(stat="identity", position = "stack") +
   scale_fill_manual(values = c('#fe66cb', '#0000fe')) + 
+  scale_colour_manual(values = c('#fe66cb', '#0000fe')) + 
   guides(fill=FALSE)
+
+ggplot(data=yeardata) +
+  geom_bar(stat="identity", position = "stack", aes(x = AGE, y = POP, fill = SEX, colour= SEX )) +
+  scale_fill_manual(values = c('#fe66cb', '#0000fe')) + 
+  scale_colour_manual(values = c('#fe66cb', '#0000fe')) + 
+  guides(fill=FALSE)
+
 
 
 # ***Population Pyramid***
 
 japanAgePop <- mutate(japanData, POP = ifelse(SEX == 'Male', POP * -1, POP)) # make male ages negative
 
-year_data <- filter(japanAgePop, time == 2010)
+year_data <- filter(japanAgePop, time == 2020)
 
 ggplot(year_data, aes(x = AGE, y = POP, fill = SEX, width = 1)) +
   coord_fixed() + 
@@ -46,16 +57,19 @@ ggplot(year_data, aes(x = AGE, y = POP, fill = SEX, width = 1)) +
   geom_bar(data = subset(year_data, SEX == "Male"), stat = "identity") +
   scale_y_continuous(breaks = seq(-1000000, 1000000, 500000), # from -1m to 1m, counting by 500k
                      labels = paste0(as.character(c(1, 0.5, 0, 0.5, 1)), "m"),
-                     limits = c(-1200000, 1200000)) +
+                     limits = c(min(year_data$POP), max(year_data$POP))) +
   theme_economist(base_size = 14) + 
   #theme_hc() +
   scale_fill_manual(values = c('#fe66cb', '#0000fe')) + 
   labs(title = "Population structure of Japan", y='Population',x='Age') +
-  theme(legend.position = "bottom", legend.title = element_blank()) + 
+  theme(legend.position = "bottom") + 
   guides(fill = guide_legend(reverse = TRUE))
 
 
+
 # ***Animated Population Pyramid***
+
+japanAgePop <- mutate(japanData, POP = ifelse(SEX == 'Male', POP * -1, POP)) # make male ages negative
 
 saveGIF({
   
@@ -72,7 +86,7 @@ saveGIF({
       geom_bar(data = subset(year_data, SEX == "Male"), stat = "identity") +
       scale_y_continuous(breaks = seq(-1000000, 1000000, 500000), # from -1m to 1m, counting by 500k
                          labels = paste0(as.character(c(1, 0.5, 0, 0.5, 1)), "m"),
-                         limits = c(-1200000, 1200000)) +
+                         limits = c(-1300000, 1300000)) +
       theme_economist(base_size = 14) + 
       scale_fill_manual(values = c('#fe66cb', '#0000fe')) + 
       labs(title = paste("Population structure of Japan: ",year), y='Population',x='Age') +
@@ -83,6 +97,10 @@ saveGIF({
     
   }
   
-}, movie.name = 'japan-pop-pyramid.gif', interval = 0.2, ani.width = 700, ani.height = 600)
+  print(yearplot)
+  print(yearplot)
+  print(yearplot)
+  
+}, movie.name = 'japan-pop-pyramid.gif', interval = 0.1, ani.width = 700, ani.height = 600)
   
   
