@@ -7,7 +7,7 @@ Japan Population Pyramid, 1990-2050
 
 ## Links
 
-[US Census API key](http://api.census.gov/data/key_signup.html)
+[US Census API key](http://api.census.gov/data/key_signup.html) -- [Qatar pyramid example](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-9/blob/master/qatar-population-pyramid.md) ([code](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-9/blob/master/qatar-population-pyramid.md)) 
 
 [ggplot2 cheat sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
 
