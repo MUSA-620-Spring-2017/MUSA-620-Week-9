@@ -42,22 +42,29 @@ The final deliverable should include:
 This assignment is more open-ended than the previous ones. Given all the tools you now have under your belt, you have many options for how you complete the assignment. Several possibilities are suggested below, but if you have a different method, you are welcome to use it.
 
 **Downloads:**
-- [Philadelphia Crime Incidents](https://www.opendataphilly.org/dataset/crime-incidents) (you may ignore any crimes that are missing coordinates)
+- [Philadelphia Crime Incidents](https://www.opendataphilly.org/dataset/crime-incidents) -- You may ignore any crimes that are missing coordinates 
 - [Philadelphia Census Tracts](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-2)
 
 
 **1. For each Philly census tract, calculate the number of crimes that occurred there during each year, 2009 to 2016.**
 
 For this step, you have several options.
-- You can use QGIS, ArcGis, or PostGIS to join the accident count directly to the Philly-tracts shapefile using a spatial join.
+- You can use QGIS, ArcMap, or PostGIS to join the accident count directly to the Philly-tracts shapefile using a spatial join.
 - Alternatively, you can follow the process we used in [step 2 of the accidents assignment](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-6), using a spatial join to match each crime to a Census tract. In this case, the crime data and the Census tract shapefile can be loaded separately into R, and connected using a left join, as we did in the [ggplot example](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-9/blob/master/ggplot2-map.R) in class.
-- Regardless of the method you choose, you are welcome to use BigQuery to make the crime data more compact and easier to work with, as we did with the NYC taxi data.
+
 
 **2. Visualize the crime as an animated choropleth**
 
 You may use ggplot2 or D3 to create the map. Design considerations are up to you and will be factored into the grade. The objective is clear presentation of the spatiotemporal crime trends. A nice looking map is a plus, but it is not the goal.
 
 Added features (legend, compass, title, labels, dropshadow, etc) are encouraged where appropriate, but remember that more is not necessarily better.
+
+**Tips**
+
+- The crime incidents dataset is very large (> 2m records). To make the data more manageable, you may consider using BigQuery or PostGIS as a preprocessing step. You can repeat what we did with the NYC taxi data, using a GROUP BY query to condense the number of line items. Or tou can run a query to break the data up into multiple smaller files and remove unneeded columns.
+- I would recommend using PostGIS for the spatial join, since it is designed for handling large datasets like this one. If you do decide to use QGIS or ArcMap, you can speed up the query by creating a spatial index on both layers beforehand. In the QGIS menu bar, go to: *Vector > Data Management Tools > Create Spatial Index*. In ArcMap, go to: *ArcToolbox > Data Management Tools > Indexes > Add Spatial Index*.
+- To extract the year of the crimes from the date column, this SQL function may come in handy: *LEFT(dispatchdate, 4)*
+
 
 ### Extra Credit
 Extra credit for building a map that shows the crime **month-by-month** (12 months x 8 years = 96 total map frames). This should be done in a systematic way, not by manually copying and pasting the same code 96 times.
