@@ -55,9 +55,8 @@ For this step, you have several options.
 
 **2. Visualize the crime as an animated choropleth**
 
-You may use ggplot2 or D3 to create the map. Design considerations are up to you and will be factored into the grade. The objective is clear presentation of the spatiotemporal crime trends. A nice looking map is a plus, but it is not the goal.
-
-Added features (legend, compass, title, labels, dropshadow, etc) are encouraged where appropriate, but remember that more is not necessarily better.
+- You may use ggplot2 or D3 to create the map. Design considerations are up to you and will be factored into the grade. The objective is clear presentation of the spatiotemporal crime trends. A nice looking map is a plus, but it is not the goal.
+- Added features (legend, compass, title, labels, dropshadow, etc) are encouraged where appropriate, but remember that more is not necessarily better.
 
 **Tips**
 
