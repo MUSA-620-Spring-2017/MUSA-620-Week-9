@@ -42,7 +42,7 @@ The final deliverable should include:
 This assignment is more open-ended than the previous ones. Given all the tools you now have under your belt, you have many options for how you complete the assignment. Several possibilities are suggested below, but if you have a different method, you are welcome to use it.
 
 **Downloads:**
-- [Philadelphia Crime Incidents](https://www.opendataphilly.org/dataset/crime-incidents) -- You may ignore any crimes that are missing coordinates. Edit: The Philly Open Data site is now showing the links as broken, so I have uploaded the data to Google Drive ([csv](https://drive.google.com/open?id=0B3ZNkQw4p_w6QmR6YjVOSWFYQVU))
+- [Philadelphia Crime Incidents](https://www.opendataphilly.org/dataset/crime-incidents) -- You may ignore any crimes that are missing coordinates. **Edit:** The Philly Open Data site is now showing the links as broken, so I've uploaded the data to Google Drive (download as [csv](https://drive.google.com/open?id=0B3ZNkQw4p_w6QmR6YjVOSWFYQVU) or [geojson](https://drive.google.com/open?id=0B3ZNkQw4p_w6cFc0X0VybTVaS0E))
 - [Philadelphia Census Tracts](https://github.com/MUSA-620-Fall-2017/MUSA-620-Week-2)
 
 
