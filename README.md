@@ -28,7 +28,7 @@ Create an animated choropleth map that displays the density of crimes across Phi
 
 This assignment is **required**. You may turn it in by email (galkamaxd at gmail) or in person at class.
 
-**Due:** 29-Mar
+**Due:** ~~29-Mar~~ extended to 5-Apr
 
 ### Deliverable:
 
