@@ -60,10 +60,10 @@ For this step, you have several options.
 
 **Tips**
 
-- The crime incidents dataset is very large (> 2m records). To make the data more manageable, you may consider using BigQuery or PostGIS as a preprocessing step. You can repeat what we did with the NYC taxi data, using a GROUP BY query to condense the number of line items. Or tou can run a query to break the data up into multiple smaller files and remove unneeded columns.
+- The crime incidents dataset is very large (> 2m records). Depending on how you go about building the map, the size may not be a problem. But if you are finding it difficult to work with, you may consider using BigQuery or PostGIS as a preprocessing step. You can repeat what we did with the NYC taxi data, using a GROUP BY query to condense the number of line items. Or you can run a query to break the data up into multiple smaller files and remove unneeded columns.
 - I would recommend using PostGIS for the spatial join, since it is designed for handling large datasets like this one. If you do decide to use QGIS or ArcMap, you can speed up the query by creating a spatial index on both layers beforehand. In the QGIS menu bar, go to: *Vector > Data Management Tools > Create Spatial Index*. In ArcMap, go to: *ArcToolbox > Data Management Tools > Indexes > Add Spatial Index*.
 - To extract the year of the crimes from the date column, this SQL function may come in handy: *LEFT(dispatchdate, 4)*
-
+- If you run into problems getting ImageMagick working, it's actually quite easy to create the animated GIF manually. Save the plots as image files using [ggsave](http://docs.ggplot2.org/0.9.2.1/ggsave.html) and upload them to [ezgif](https://ezgif.com/maker).
 
 ### Extra Credit
 Extra credit for building a map that shows the crime **month-by-month** (12 months x 8 years = 96 total map frames). This should be done in a systematic way, not by manually copying and pasting the same code 96 times.
