@@ -1,11 +1,11 @@
-library(idbr) # Census API -- http://api.census.gov/data/key_signup.html
+library(idbr) # Census API
 library(ggplot2)
 library(animation)
 library(dplyr)
 library(ggthemes)
 
 
-idb_api_key("1f57735a52d7004c67d5842c795108d0706aeba1")
+idb_api_key("your api key") # Request an API key here: http://api.census.gov/data/key_signup.html
 
 qmale <- idb1('QA', 1990:2050, sex = 'male') %>%
   mutate(POP = POP * -1, SEX = 'Male')
